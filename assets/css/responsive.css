@@ -1,0 +1,164 @@
+@media only screen and (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        border: 0px !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/toggle.png");
+    }
+    #navbarSupportedContent ul {
+        margin-left: 0%;
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item {
+        background: #8812c3;
+        padding: 0px 20px;
+        margin-top: 4px;
+    }
+    .navbar-nav .nav-item a {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .chat-right {
+        display: none;
+    }
+    .creator-box .potential img {
+        height: 500px !important;
+    }
+    .potential .generating {
+        width: 70%;
+    }
+    .potential .generating img {
+        height: 10px !important;
+    }
+    .potential .keys img {
+        height: 20px !important;
+    }
+    .potential .keys {
+        top: 28.8% !important;
+    }
+    .payment h3 {
+        font-size: 33px;
+    }
+    .pay-box {
+        margin-top: 20px;
+    }
+    footer h3 {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero-box {
+        height: 460px;
+    }
+    .hero-box h1 {
+        font-size: 40px !important;
+    }
+    .hero-box p {
+        font-size: 13px;
+    }
+    .gen-box {
+        height: 450px;
+    }
+    .creator-box .potential img {
+        height: 400px !important;
+    }
+    .potential .keys {
+        top: 28.8% !important;
+        padding: 0 !important;
+    }
+    .potential .generating {
+        width: 70%;
+    }
+    .potential .generating img {
+        height: 10px !important;
+    }
+    .potential .keys img {
+        height: 20px !important;
+    }
+    .potential .keys ul li {
+        margin-top: 0 !important;
+    }
+    .payment h3 {
+        font-size: 28px;
+    }
+    .hero-box img:nth-child(1) {
+        height: 30px;
+    }
+    .hero-box img:nth-child(2) {
+        height: 30px;
+    }
+    .creator-box {
+        margin-top: 50px !important;
+    }
+    footer .sign-in {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-box h1 {
+        font-size: 32px !important;
+    }
+    .creator-box .potential img {
+        height: 300px !important;
+    }
+    .potential .keys {
+        display: none;
+    }
+    .potential .generating {
+        width: 70%;
+    }
+    .potential .generating img {
+        height: 10px !important;
+    }
+    .potential .keys img {
+        height: 20px !important;
+    }
+    .potential .keys ul li {
+        margin-top: 0 !important;
+    }
+    .payment h3 {
+        font-size: 23px;
+    }
+    .pay-box ul li {
+        margin-top: 10px;
+        padding: 10px 0px;
+    }
+    .chat-left h2 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .hero-box h1 {
+        font-size: 32px !important;
+    }
+    .creator-box .potential img {
+        height: 250px !important;
+    }
+    .potential .keys {
+        display: none;
+    }
+    .potential .generating {
+        width: 100% !important;
+    }
+    .potential .generating img {
+        height: 20px !important;
+    }
+    .potential .keys img {
+        height: 20px !important;
+    }
+    .potential .keys ul li {
+        margin-top: 0 !important;
+    }
+    .payment h3 {
+        font-size: 20px;
+    }
+    .pay-box ul li {
+        margin-top: 10px;
+        padding: 10px 0px;
+    }
+}
